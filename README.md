@@ -1,18 +1,15 @@
-# Schedule
+1. the moment that the page loads, the time needs to be today's date.
+2. schedule table:
+    -needs eight rows with three columns:
+        -all the columns needs to have a color depending on the time (past, present, future total of three colors):
+        1st Column-hour: 9-5 (default)
+        2nd Column-text input: needs to be saved to localarea so that it shows in the future.
+        2rd Column-save button: img with clickable save function.
 
-1. Display todays date. Using moment.js.
-    a. Switch the colors when it has passed. Refer to CSS.
-
-    On the load, check if the hour has passed or not.
-    with the if statement, check for every single one.
-
-2. Create a table with the hours: 9 - 5. Three Columns and nine rows.
-    1st Column - Hours. 2nd Column user input. 3rd Save button.
-
-        1. Create a funtion so that it we called nine times.
-        2. Inside of function, create one row that contains three columns.
-            1. hour - should show the hour.
-            2. input - input area. (text - save the text to local storage)
-            3. save - save button. (img onclick save it to local storage)
-
-
+1st- Create eight rows
+2nd- Create three columns:
+    1st column- by defaut, number from 9 to 5.
+    2nd column- include a text area
+    3rd column- include a save button -> after clicking the save button:
+        -save the text area (2nd column) to local storage
+        -replace empty text area with user's input

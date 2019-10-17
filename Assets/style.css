@@ -23,17 +23,13 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  border-style: dotted;
+  width: 100%;
 }
 
 .time-block{
   text-align: center;
   border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
 }
 
 .hour {
@@ -64,6 +60,8 @@ textarea{
   background-color: #06AED5;
   color: white;
   border-style: dotted;
+  height: 100%;
+  width: 100%;
 }
 
 .saveBtn i:hover {
@@ -72,7 +70,7 @@ textarea{
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  border-style: dashed;
+  border-style: dotted;
 }
+
+
