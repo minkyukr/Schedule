@@ -3,6 +3,7 @@ var nowMoment = moment();
 var eDisplayMoment = document.getElementById('currentDay');
 eDisplayMoment.innerHTML = nowMoment;
 }
+//trying moment.js
 
 // function settingTable (time) {
 //   var targetDiv = document.querySelector('.container');
