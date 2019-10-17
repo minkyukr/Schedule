@@ -1,49 +1,49 @@
  <div class="table">
-        <tr class="row">
-          <td class='col-md-1'>9</td>
-          <td class='col-md-9'><input type='text'/></td>
-          <td class='col-md-2'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>10</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>11</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>    
-        <tr class="row">
-          <td class='col-md-3'>12</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>1</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>2</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>3</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
-        <tr class="row">
-          <td class='col-md-3'>4</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>  
-        <tr class="row">
-          <td class='col-md-3'>5</td>
-          <td class='col-md-6'><input type="text"/></td>
-          <td class='col-md-3'><button class='saveBtn'></button></td>
-        </tr>
+        <div class="row">
+          <div class='col-md-1'>9</div>
+          <div class='col-md-9'><input type='text'/></div>
+          <div class='col-md-2'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>10</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>11</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>    
+        <div class="row">
+          <div class='col-md-3'>12</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>1</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>2</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>3</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
+        <div class="row">
+          <div class='col-md-3'>4</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>  
+        <div class="row">
+          <div class='col-md-3'>5</div>
+          <div class='col-md-6'><input type="text"/></div>
+          <div class='col-md-3'><button class='saveBtn'></button></div>
+        </div>
       </div> 
 
 
