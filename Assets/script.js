@@ -6,3 +6,8 @@ targetDate.appendChild(todayDate);
 //this is where the today's date shows in the html.
 
 var hour = moment().format('HH')
+var number = 9
+// if (number < 10) {
+//   document.getElementsByClassName('col-md-10').style.backgroundColor = 'green';
+// }
+

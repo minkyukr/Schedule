@@ -22,8 +22,9 @@ body {
 }
 
 .description{
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   width: 100%;
+  border-style: dotted;
 }
 
 .time-block{
@@ -54,26 +55,23 @@ body {
   color: white;
 }
 
-.saveBtn {
+.btn-info {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 30px;
 }
 
-.saveBtn i:hover {
+.btn-info i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
-.container {
-  /* border-style: dotted; */
-}
-
 .row {
   display: flex;
-  
+  height: 50px;
 }
 
 .col-md-1 {
