@@ -13,3 +13,8 @@
     3rd column- include a save button -> after clicking the save button:
         -save the text area (2nd column) to local storage
         -replace empty text area with user's input
+
+
+how to save input type to local storage:
+1. Whatever the user types needs to be saved after the save button.
+
