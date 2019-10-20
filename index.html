@@ -16,64 +16,65 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="Assets/style.css" />
-    <title class="charlesDRN">Work Day Scheduler</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <title>Work Day Scheduler</title>
     
+
   </head>
 
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
       <p id="currentDay" class="lead"></p>
       
     </header>
     <div class="container">
         <div class="table">
             <div class="row">
-                <div class='col-md-1 time-block hour'>10</div>
-                <div class='col-md-10'><input type="text" class="description"/></div>
-                <div class='col-md-1'><button class='btn btn-info'></button></div>
+                <div class='col-md-1 time-block hour' id='hour-9'>9</div>
+                <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+                <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>10</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-10">10</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>11</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-11">11</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>    
             <div class="row">
-              <div class='col-md-1 time-block hour'>12</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-12">12</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>13</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-13">13</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>14</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-14">14</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>15</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-15">15</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
             <div class="row">
-              <div class='col-md-1 time-block hour'>16</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-16">16</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>  
             <div class="row">
-              <div class='col-md-1 time-block hour'>17</div>
-              <div class='col-md-10'><input type="text" class="description"/></div>
-              <div class='col-md-1'><button class='btn btn-info'></button></div>
+              <div class='col-md-1 time-block hour' id="hour-17">17</div>
+              <div class='col-md-10 past present future'><input type="text" class="description"/></div>
+              <div class='col-md-1'><button class='saveBtn'><i class="far fa-save"></i></button></div>
             </div>
           </div> 
     </div>
