@@ -48,3 +48,5 @@ function loadPage() {
     $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 }
 
+loadPage();
+
