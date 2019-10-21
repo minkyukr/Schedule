@@ -5,13 +5,10 @@ todayDate.textContent = moment().format('dddd MMMM Do YYYY');
 targetDate.appendChild(todayDate);
 //this is where the today's date shows in the html.
 
-// var hour = moment().format('HH')
-// var number = 9
-// if (number < 10) {
-//   document.getElementsByClassName('col-md-10').style.backgroundColor = 'green';
-// }
+
 function loadPage() {
-  document.querySelector('.saveBtn').addEventListener('click', function () {
+    var saveButton = document.querySelector('.saveBtn');
+    saveButton.addEventListener('click', function () {
     var userInput = document.querySelector('.description').value;
     var time = $(this).parent().attr("id");
     //이거는 모르겟다..
@@ -24,7 +21,6 @@ function loadPage() {
     $(".time-block").each(function() {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
 
-      // check if we've moved past this time
       if (blockHour < currentHour) {
         $(this).addClass("past");
       } 
